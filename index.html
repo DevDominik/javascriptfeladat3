@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head lang="hu">
+        <meta charset="utf-8">
+        <title>Háromszög</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="keret">
+            <h2>Dérekszögű háromszög oldalhosszai</h2>
+            <form>
+                <label>Egyik befogó: </label><input type="number" id="befogo1" value="0"><br>
+                <label>Másik befogó: </label><input type="number" id="befogo2" value="0"><br>
+                <label>Átfogó: </label><input type="number" id="atfogo" value="0"><br>
+                <hr>
+                <button type="button" onclick="Fuggveny('szerk')">Szerkeszthető?</button>
+                <button type="button" onclick="Fuggveny('10-100valasz')">10-100 random szám</button>
+                <button type="button" onclick="Fuggveny('szamitas')">Átfogó számítás</button>
+            </form>
+        </div>
+    </body>
+</html>

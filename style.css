@@ -1,0 +1,9 @@
+#keret {
+    background-color:burlywood;
+    margin: auto 30% auto 30%;
+    text-align: center;
+    border-radius: 12px;
+    border-color: rgb(130,89,50);
+    border: 2px solid;
+    box-shadow: 8px;
+}
